@@ -19,14 +19,14 @@ cv:
         location:
         highlights:
           - Led project refactoring, identified DB bottleneck, reducing core feature execution time by **98.5%**
-          - Used **Claude Code** and **MCP**, reducing core module development time by at least **70%+**
           - Independently owned new projects end-to-end: requirements breakdown, system design, and implementation
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
+          - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
+          - Introduced **Docker** containerization with deployment scripts, significantly simplifying dev setup and ensuring environment consistency
+          - Introduced **Pytest** framework for unit and integration tests, reducing incidents
           - Introduced **SDD**, **BDD**, **TDD** workflow with comprehensive technical documentation
           - Advocated **Clean Architecture**, authored internal documentation
-          - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
-          - Introduced **Docker** containerization for consistent development and deployment environments
-          - Introduced **Pytest** framework for unit and integration tests, reducing incidents
+          - Used **Claude Code** and **MCP**, reducing core module development time by at least **70%+**
           - Cross-functional collaboration with frontend engineers, system engineers, and QA
       - company: WeHelp
         position: Trainee

@@ -19,14 +19,14 @@ cv:
         location:
         highlights:
           - 主導專案重構，定位 DB 操作瓶頸，核心功能執行時間降低 **98.5%**
-          - 使用 **Claude Code**、**MCP** 使核心模組開發時間縮短至少 **70%+**
           - 獨立負責新專案從需求拆解、系統設計到落地實作
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
+          - 建置 **GitHub Actions** CI，含 **self-hosted runner**、**pre-commit**、**regression testing**
+          - 導入 **Docker** 容器化並撰寫部署腳本，大幅簡化開發環境設置並確保環境一致
+          - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
           - 導入 **SDD**、**BDD**、**TDD** 開發流程及完整技術文件
           - 推廣 **Clean Architecture**，撰寫內部教學文件
-          - 建置 **GitHub Actions** CI，含 **self-hosted runner**、**pre-commit**、**regression testing**
-          - 導入 **Docker** 容器化，確保開發與部署環境一致性
-          - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
+          - 使用 **Claude Code**、**MCP** 使核心模組開發時間縮短至少 **70%+**
           - 與 frontend engineer、system engineer 及 QA 跨領域協作
       - company: WeHelp
         position: Trainee
