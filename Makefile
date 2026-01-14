@@ -1,12 +1,20 @@
-.PHONY: render
+.PHONY: render render-en render-zh
+
+NAME = ChengTingChan
+OUT  = rendercv_output
 
 render:
-	@timestamp=$$(date +%Y%m%d_%H%M%S); \
-	out="rendercv_output/$$timestamp"; \
-	rendercv render ChengTingChan_CV.yaml \
-		-pdf "$$out/ChengTingChan_$$timestamp.pdf" \
-		-html "$$out/ChengTingChan_$$timestamp.html" \
-		-md "$$out/ChengTingChan_$$timestamp.md" \
-		-typ "$$out/ChengTingChan_$$timestamp.typ" \
-		-png "$$out/ChengTingChan_$$timestamp.png"; \
-	echo "Created: $$out/"
+	@ts=$$(date +%Y%m%d_%H%M%S); \
+	rendercv render $(NAME)_CV.yaml -pdf "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
+	rendercv render $(NAME)_CV_zh.yaml -pdf "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	echo "Created: $(OUT)/$$ts/"
+
+render-en:
+	@ts=$$(date +%Y%m%d_%H%M%S); \
+	rendercv render $(NAME)_CV.yaml -pdf "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
+	echo "Created EN: $(OUT)/$$ts/"
+
+render-zh:
+	@ts=$$(date +%Y%m%d_%H%M%S); \
+	rendercv render $(NAME)_CV_zh.yaml -pdf "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	echo "Created ZH: $(OUT)/$$ts/"
