@@ -72,7 +72,7 @@ design:
   sections:
     space_between_regular_entries: 0.2cm
   section_titles:
-    space_above: 0.4cm
+    space_above: 0.45cm
     space_below: 0.35cm
 
 locale:
