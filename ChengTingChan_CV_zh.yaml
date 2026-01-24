@@ -34,7 +34,7 @@ cv:
         end_date: 2024-09
         location:
         highlights:
-          - "於 6 週內完成**獨立規劃、開發**的個人全端專案，使用到 **Node.js**、**Python**、**MySQL**、**WebSocket**、**Redis**、**Kafka**、**Docker**、**AWS**"
+          - "於 6 週內完成**獨立規劃、開發**的個人全端專案，使用到 **Python**、**JavaScript**、**MySQL**、**WebSocket**、**Redis**、**Kafka**、**Docker**、**AWS**"
     projects:
       - name: "[Ticketing System](https://github.com/chengting0906os/ticketing_system)"
         highlights:

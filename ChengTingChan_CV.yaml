@@ -34,7 +34,7 @@ cv:
         end_date: 2024-09
         location:
         highlights:
-          - "Completed **independently planned and developed** personal full-stack projects within 6 weeks, using **Node.js**, **Python**, **MySQL**, **WebSocket**, **Redis**, **Kafka**, **Docker**, and **AWS**"
+          - "Completed **independently planned and developed** personal full-stack projects within 6 weeks, using **Python**, **JavaScript**, **MySQL**, **WebSocket**, **Redis**, **Kafka**, **Docker**, and **AWS**"
     projects:
       - name: "[Ticketing System](https://github.com/chengting0906os/ticketing_system)"
         highlights:
