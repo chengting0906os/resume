@@ -19,34 +19,33 @@ cv:
         location:
         highlights:
           - 主導專案重構，定位 DB 操作瓶頸，核心功能執行時間降低 **98.5%**
-          - 獨立負責新專案從需求拆解、系統設計到落地實作
+          - "獨立負責新專案從**需求拆解**、**系統設計**到**落地實作**"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
-          - 建置 **GitHub Actions** CI，含 **self-hosted runner**、**pre-commit**、**regression testing**
-          - 導入 **Docker** 容器化並撰寫部署腳本，大幅簡化開發環境設置並確保環境一致
+          - 建立 **GitHub Actions** CI 工作流程，含 **self-hosted runner**、**pre-commit**、**regression testing**
+          - 導入 **Docker** 容器化並撰寫部署腳本，大幅縮短開發環境設置時間
           - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
-          - 導入 **SDD**、**BDD**、**TDD** 開發流程及完整技術文件
-          - 推廣 **Clean Architecture**，撰寫內部教學文件
-          - 使用 **Claude Code**、**MCP** 使核心模組開發時間縮短至少 **70%+**
-          - 與 frontend engineer、system engineer 及 QA 跨領域協作
+          - 實作 **SDD**、**BDD**、**TDD** 工作流程，建立 **Single Source of Truth**，降低溝通成本
+          - 運用 **AI 輔助開發工具**（Claude Code、MCP），使核心模組開發時間縮短 **70%+**
+          - 與 frontend engineer、system engineer 及 QA **跨領域協作**
+          - 導入 **Clean Architecture**，建立**示範 repo** 幫助團隊導入
       - company: WeHelp
         position: Trainee
         start_date: 2024-04
         end_date: 2024-09
         location:
         highlights:
-          - 完成兩項 full-stack 專案
-          - "技術棧: **WebSocket**、**JWT**、**TapPay SDK**、**Nginx**"
+          - "於 6 週內完成**獨立規劃、開發**的個人全端專案，使用到 **Node.js**、**Python**、**MySQL**、**WebSocket**、**Redis**、**Kafka**、**Docker**、**AWS**"
     projects:
       - name: "[Ticketing System](https://github.com/chengting0906os/ticketing_system)"
         highlights:
-          - 設計並實作 **event-driven** 票務系統，負載測試達 **5,116 RPS**
-          - 以 **SAGA pattern** 建構非同步座位預訂，跨 **Kafka**、**Kvrocks**、**PostgreSQL** 實現分散式交易
-          - 透過 **Kafka partition ordering** + **冪等性檢查**確保資料一致性，避免使用分散式鎖
-          - 整合 **OpenTelemetry** 搭配 **Jaeger**（本地）及 **AWS X-Ray**（雲端）實現分散式追蹤
+          - 設計並實作 **event-driven** 票務系統，load test 達 **5,116 RPS**
+          - 透過 **Kafka partition ordering** + **冪等性設計**確保資料一致性，避免使用 distributed locks
+          - "實作**非同步訂票通知**，透過 **SSE** + **Pub/Sub**：API 立即返回 `202 Accepted`，客戶端接收即時狀態更新"
+          - 整合 **OpenTelemetry** 搭配 **Jaeger**（本地）及 **AWS X-Ray**（雲端）實現 distributed tracing
           - 使用 **py-spy** 產生 flame graph，定位並解決 CPU 瓶頸，執行時間降低 **72%**
     certifications:
       - bullet: AWS Certified Cloud Practitioner
-      - bullet: TOEIC 915
+      - bullet: TOEIC 915（Listening and Reading）
     skills:
       - label: Languages & Frameworks
         details: Python, Django, FastAPI, Django ORM, SQLAlchemy
@@ -57,13 +56,17 @@ cv:
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: AWS
-        details: EC2, ECS, Fargate, ALB, RDS, S3, Route53, X-Ray, CloudWatch, CDK
+        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray, CDK
 
 design:
   theme: classiczh
   page:
     show_top_note: false
     show_footer: false
+  header:
+    space_below_name: 0.6cm
+    space_below_headline: 0.1cm
+    space_below_connections: 0.4cm
   typography:
     font_family: Noto Sans
     line_spacing: 0.8em

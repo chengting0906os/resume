@@ -19,34 +19,33 @@ cv:
         location:
         highlights:
           - Led project refactoring, identified DB bottleneck, reducing core feature execution time by **98.5%**
-          - Independently owned new projects end-to-end: requirements breakdown, system design, and implementation
+          - "Independently owned new projects **end-to-end**: **requirements breakdown**, **system design**, and **implementation**"
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
           - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
-          - Introduced **Docker** containerization with deployment scripts, significantly simplifying dev setup and ensuring environment consistency
+          - Introduced **Docker** containerization with deployment scripts, significantly reducing dev setup time
           - Introduced **Pytest** framework for unit and integration tests, reducing incidents
-          - Introduced **SDD**, **BDD**, **TDD** workflow with comprehensive technical documentation
-          - Advocated **Clean Architecture**, authored internal documentation
-          - Used **Claude Code** and **MCP**, reducing core module development time by at least **70%+**
-          - Cross-functional collaboration with frontend engineers, system engineers, and QA
+          - Implemented **SDD**, **BDD**, **TDD** workflow, creating **Single Source of Truth** to reduce communication overhead
+          - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
+          - "**Cross-functional collaboration** with frontend engineers, system engineers, and QA"
+          - Introduced **Clean Architecture** with **reference repo** to facilitate team adoption
       - company: WeHelp
         position: Trainee
         start_date: 2024-04
         end_date: 2024-09
         location:
         highlights:
-          - Completed two full-stack projects
-          - "Tech stack: **WebSocket**, **JWT**, **TapPay SDK**, **Nginx**"
+          - "Completed **independently planned and developed** personal full-stack projects within 6 weeks, using **Node.js**, **Python**, **MySQL**, **WebSocket**, **Redis**, **Kafka**, **Docker**, and **AWS**"
     projects:
       - name: "[Ticketing System](https://github.com/chengting0906os/ticketing_system)"
         highlights:
-          - Designed and implemented an event-driven ticketing, achieving **5,116 RPS** under load testing
-          - Built async seat reservation with **SAGA pattern** for distributed transactions across **Kafka**, **Kvrocks**, and **PostgreSQL**
-          - Achieved consistency via **Kafka partition ordering** + **idempotency check**, eliminating the need for distributed locks
-          - Integrated **OpenTelemetry** with **Jaeger** (local) and **AWS X-Ray** (cloud) for distributed tracing
-          - Used **py-spy** to generate flame graphs, identified and resolved CPU bottlenecks, reducing execution time by **72%**
+          - Designed and implemented an **event-driven ticketing system** achieving **5,116 RPS** under load testing
+          - Leveraged **Kafka partition ordering** + **idempotency design** to achieve consistency without distributed locks
+          - "Implemented **async booking notification** via **SSE** + **Pub/Sub**: API returns `202 Accepted` immediately, client receives real-time status updates"
+          - Integrated **OpenTelemetry** with **Jaeger (local)** and AWS **X-Ray (cloud)** for distributed tracing
+          - Used **py-spy** to generate flame graphs, identified and resolved CPU bottlenecks in the hot path, reducing execution time by **72%**
     certifications:
       - bullet: AWS Certified Cloud Practitioner
-      - bullet: TOEIC 915
+      - bullet: TOEIC 915 (Listening and Reading)
     skills:
       - label: Languages & Frameworks
         details: Python, Django, FastAPI, Django ORM, SQLAlchemy
@@ -57,13 +56,20 @@ cv:
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: AWS
-        details: EC2, ECS, Fargate, ALB, RDS, S3, Route53, X-Ray, CloudWatch, CDK
+        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray, CDK
 
 design:
   theme: classic
   page:
     show_top_note: false
     show_footer: false
+  header:
+    space_below_name: 0.6cm
+    space_below_headline: 0.05cm
+    space_below_connections: 0.5cm
+  section_titles:
+    space_above: 0.4cm
+    space_below: 0.4cm
 
 locale:
   language: english

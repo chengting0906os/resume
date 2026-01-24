@@ -20,7 +20,7 @@
 {% endif %}
 {% endif %}
 {% if cv.name %}
-= #text(tracking: 0.05em)[{{ cv.name }}]
+= {{ cv.name }}
 {% endif %}
 
 {% if cv.headline %}

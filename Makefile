@@ -5,16 +5,20 @@ OUT  = rendercv_output
 
 render:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
-	rendercv render $(NAME)_CV.yaml -pdf "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
-	rendercv render $(NAME)_CV_zh.yaml -pdf "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	mkdir -p "$(OUT)/$$ts"; \
+	rendercv render $(NAME)_CV.yaml --output-folder-name "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
+	rendercv render $(NAME)_CV_zh.yaml --output-folder-name "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	find $(OUT) -maxdepth 1 -type f \( -name "*.png" -o -name "*.md" -o -name "*.html" \) -exec mv {} "$(OUT)/$$ts/" \; ; \
 	echo "Created: $(OUT)/$$ts/"
 
 render-en:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
-	rendercv render $(NAME)_CV.yaml -pdf "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
+	mkdir -p "$(OUT)/$$ts"; \
+	rendercv render $(NAME)_CV.yaml --output-folder-name "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
 	echo "Created EN: $(OUT)/$$ts/"
 
 render-zh:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
-	rendercv render $(NAME)_CV_zh.yaml -pdf "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" -typ "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	mkdir -p "$(OUT)/$$ts"; \
+	rendercv render $(NAME)_CV_zh.yaml --output-folder-name "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
 	echo "Created ZH: $(OUT)/$$ts/"
