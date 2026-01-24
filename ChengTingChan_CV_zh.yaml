@@ -67,6 +67,8 @@ design:
     space_below_name: 0.6cm
     space_below_headline: 0.1cm
     space_below_connections: 0.4cm
+  links:
+    show_external_link_icon: true
   typography:
     font_family: Noto Sans
     line_spacing: 0.8em

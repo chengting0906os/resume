@@ -18,7 +18,7 @@ cv:
         end_date: present
         location:
         highlights:
-          - Led project refactoring, identified DB bottleneck, reducing core feature execution time by **98.5%**
+          - Owned project refactoring, identified DB bottleneck, reducing core feature execution time by **98.5%**
           - "Independently owned new projects **end-to-end**: **requirements breakdown**, **system design**, and **implementation**"
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
           - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
@@ -65,11 +65,15 @@ design:
     show_footer: false
   header:
     space_below_name: 0.6cm
-    space_below_headline: 0.05cm
+    space_below_headline: 0.01cm
     space_below_connections: 0.5cm
+  links:
+    show_external_link_icon: true
+  sections:
+    space_between_regular_entries: 0.2cm
   section_titles:
     space_above: 0.4cm
-    space_below: 0.4cm
+    space_below: 0.35cm
 
 locale:
   language: english
