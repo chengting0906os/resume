@@ -26,8 +26,8 @@ cv:
           - Introduced **Pytest** framework for unit and integration tests, reducing incidents
           - Implemented **SDD**, **BDD**, **TDD** workflow, creating **Single Source of Truth** to reduce communication overhead
           - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
-          - "**Cross-functional collaboration** with frontend engineers, system engineers, and QA"
           - Introduced **Clean Architecture** with **reference repo** to facilitate team adoption
+          - "**Cross-functional collaboration** with frontend engineers, system engineers, and QA"
       - company: WeHelp
         position: Trainee
         start_date: 2024-04

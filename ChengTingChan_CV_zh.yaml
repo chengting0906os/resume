@@ -26,8 +26,8 @@ cv:
           - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
           - 實作 **SDD**、**BDD**、**TDD** 工作流程，建立 **Single Source of Truth**，降低溝通成本
           - 運用 **AI 輔助開發工具**（Claude Code、MCP），使核心模組開發時間縮短 **70%+**
-          - 與 frontend engineer、system engineer 及 QA **跨領域協作**
           - 導入 **Clean Architecture**，建立**示範 repo** 幫助團隊導入
+          - 與 frontend engineer、system engineer 及 QA **跨領域協作**
       - company: WeHelp
         position: Trainee
         start_date: 2024-04
