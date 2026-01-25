@@ -1,6 +1,16 @@
 // Import the rendercv function and all the refactored components
 #import "@preview/rendercv:0.1.0": *
 
+// 設定中文語言
+#set text(lang: "zh", region: "TW")
+
+// 中文字元間距
+#show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.15em)
+#show strong: it => {
+  show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.15em)
+  box(inset: (x: 0.15em), it)
+}
+
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "{{ cv.name }}",
