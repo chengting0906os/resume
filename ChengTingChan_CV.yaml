@@ -21,9 +21,9 @@ cv:
           - Owned project refactoring, identified DB bottleneck, **reducing core feature execution time** by **98.5%**
           - "Independently owned new projects **end-to-end**: **requirements breakdown**, **system design**, and **implementation**"
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
-          - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
-          - Introduced **Docker** containerization with deployment scripts, **significantly reducing dev setup time**
           - Introduced **Pytest** framework for unit and integration tests, reducing incidents
+          - Established **GitHub Actions** CI with **self-hosted runner** and **automated testing**, catching bugs early and reducing review overhead
+          - Introduced **Docker** containerization with deployment scripts, **significantly reducing dev setup time**
           - Implemented **SDD**, **BDD**, **TDD** workflow, creating **Single Source of Truth** to reduce communication overhead
           - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
           - Introduced **Clean Architecture** with **reference repo** to facilitate team adoption
@@ -41,8 +41,8 @@ cv:
           - Designed and implemented an **event-driven ticketing system** achieving **5,116 RPS** under load testing
           - Leveraged **Kafka partition ordering** + **idempotency design** to achieve consistency without distributed locks
           - "Implemented **async booking notification** via **SSE** + **Pub/Sub**: API returns `202 Accepted` immediately, client receives real-time status updates"
-          - Integrated **OpenTelemetry** with **Jaeger (local)** and AWS **X-Ray (cloud)** for distributed tracing
-          - Used **py-spy** to generate flame graphs, identified and resolved CPU bottlenecks in the hot path, reducing execution time by **72%**
+          - Integrated **OpenTelemetry** with **Jaeger** and **AWS X-Ray** for distributed tracing
+          - Used **py-spy** to generate flame graphs, **identified and resolved CPU bottlenecks** in the hot path, reducing execution time by **72%**
     certifications:
       - bullet: AWS Certified Cloud Practitioner
       - bullet: TOEIC 915 (Listening and Reading)

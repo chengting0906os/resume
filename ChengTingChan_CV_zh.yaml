@@ -21,9 +21,9 @@ cv:
           - 主導專案重構，定位 DB 操作瓶頸，**核心功能執行時間降低 98.5%**
           - "獨立負責新專案從**需求拆解**、**系統設計**到**落地實作**"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
-          - 建立 **GitHub Actions** CI 工作流程，含 **self-hosted runner**、**pre-commit**、**regression testing**
-          - 導入 **Docker** 容器化並撰寫部署腳本，**大幅縮短開發環境設置時間**
           - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
+          - 建立 **GitHub Actions** CI，含 **self-hosted runner** 與**自動化測試**，提早發現問題並降低 code review 負擔
+          - 導入 **Docker** 容器化並撰寫部署腳本，**大幅縮短開發環境設置時間**
           - 實作 **SDD**、**BDD**、**TDD** 工作流程，建立 **Single Source of Truth**，降低溝通成本
           - 運用 **AI 輔助開發工具**（Claude Code、MCP），使核心模組開發時間縮短 **70%+**
           - 導入 **Clean Architecture**，建立**示範 repo** 幫助團隊導入
@@ -41,8 +41,8 @@ cv:
           - 設計並實作 **event-driven** 票務系統，load test 達 **5,116 RPS**
           - 透過 **Kafka partition ordering** + **冪等性設計**確保資料一致性，避免使用 distributed locks
           - "實作**非同步訂票通知**，透過 **SSE** + **Pub/Sub**：API 立即返回 `202 Accepted`，客戶端接收即時狀態更新"
-          - 整合 **OpenTelemetry** 搭配 **Jaeger**（本地）及 **AWS X-Ray**（雲端）實現 distributed tracing
-          - 使用 **py-spy** 產生 flame graph，定位並解決 CPU 瓶頸，執行時間降低 **72%**
+          - 整合 **OpenTelemetry** 搭配 **Jaeger** 及 **AWS X-Ray** 實現 distributed tracing
+          - 使用 **py-spy** 產生 flame graph，**定位並解決 CPU 瓶頸**，執行時間降低 **72%**
     certifications:
       - bullet: AWS Certified Cloud Practitioner
       - bullet: TOEIC 915（Listening and Reading）
