@@ -18,11 +18,11 @@ cv:
         end_date: present
         location:
         highlights:
-          - Owned project refactoring, identified DB bottleneck, reducing core feature execution time by **98.5%**
+          - Owned project refactoring, identified DB bottleneck, **reducing core feature execution time** by **98.5%**
           - "Independently owned new projects **end-to-end**: **requirements breakdown**, **system design**, and **implementation**"
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
           - Set up **GitHub Actions** CI with **self-hosted runner**, **pre-commit**, and **regression testing**
-          - Introduced **Docker** containerization with deployment scripts, significantly reducing dev setup time
+          - Introduced **Docker** containerization with deployment scripts, **significantly reducing dev setup time**
           - Introduced **Pytest** framework for unit and integration tests, reducing incidents
           - Implemented **SDD**, **BDD**, **TDD** workflow, creating **Single Source of Truth** to reduce communication overhead
           - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
@@ -48,15 +48,15 @@ cv:
       - bullet: TOEIC 915 (Listening and Reading)
     skills:
       - label: Languages & Frameworks
-        details: Python, Django, FastAPI, Django ORM, SQLAlchemy
+        details: Python, Django, FastAPI, Django ORM
       - label: Databases & Messaging
         details: PostgreSQL, MySQL, Redis, Kafka
-      - label: Infrastructure
-        details: Git, Linux, Nginx, VMware, Docker, GitHub Actions
+      - label: DevOps
+        details: Git, GitHub Actions, Linux, VMware, Nginx, Docker
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: AWS
-        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray, CDK
+        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray
 
 design:
   theme: classic

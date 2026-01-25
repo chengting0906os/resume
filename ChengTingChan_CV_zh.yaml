@@ -18,11 +18,11 @@ cv:
         end_date: present
         location:
         highlights:
-          - 主導專案重構，定位 DB 操作瓶頸，核心功能執行時間降低 **98.5%**
+          - 主導專案重構，定位 DB 操作瓶頸，**核心功能執行時間降低 98.5%**
           - "獨立負責新專案從**需求拆解**、**系統設計**到**落地實作**"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
           - 建立 **GitHub Actions** CI 工作流程，含 **self-hosted runner**、**pre-commit**、**regression testing**
-          - 導入 **Docker** 容器化並撰寫部署腳本，大幅縮短開發環境設置時間
+          - 導入 **Docker** 容器化並撰寫部署腳本，**大幅縮短開發環境設置時間**
           - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
           - 實作 **SDD**、**BDD**、**TDD** 工作流程，建立 **Single Source of Truth**，降低溝通成本
           - 運用 **AI 輔助開發工具**（Claude Code、MCP），使核心模組開發時間縮短 **70%+**
@@ -48,15 +48,15 @@ cv:
       - bullet: TOEIC 915（Listening and Reading）
     skills:
       - label: Languages & Frameworks
-        details: Python, Django, FastAPI, Django ORM, SQLAlchemy
+        details: Python, Django, FastAPI, Django ORM
       - label: Databases & Messaging
         details: PostgreSQL, MySQL, Redis, Kafka
-      - label: Infrastructure
-        details: Git, Linux, Nginx, VMware, Docker, GitHub Actions
+      - label: DevOps
+        details: Git, GitHub Actions, Linux, VMware, Nginx, Docker
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: AWS
-        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray, CDK
+        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray
 
 design:
   theme: classiczh
