@@ -63,6 +63,8 @@ design:
   page:
     show_top_note: false
     show_footer: false
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
   header:
     space_below_name: 0.6cm
     space_below_headline: 0.1cm
@@ -71,7 +73,7 @@ design:
     show_external_link_icon: true
   typography:
     font_family: Noto Sans
-    line_spacing: 0.8em
+    line_spacing: 0.95em
     font_size:
       connections: 9pt
 
