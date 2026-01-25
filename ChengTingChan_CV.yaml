@@ -79,7 +79,7 @@ design:
   typography:
     line_spacing: 0.65em
     font_size:
-      name: 24pt
+      name: 26pt
 
 locale:
   language: english
