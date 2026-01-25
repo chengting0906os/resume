@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
-  name: Cheng Ting Chan
+  name: Cheng Ting Chan 詹承廷
   headline: Software Engineer
   location: Taipei, Taiwan
   email: chengting0906os@gmail.com
@@ -66,7 +66,7 @@ design:
     top_margin: 1.5cm
     bottom_margin: 1cm
   header:
-    space_below_name: 0.6cm
+    space_below_name: 0.5cm
     space_below_headline: 0.01cm
     space_below_connections: 0.5cm
   links:
@@ -78,6 +78,8 @@ design:
     space_below: 0.35cm
   typography:
     line_spacing: 0.65em
+    font_size:
+      name: 24pt
 
 locale:
   language: english
