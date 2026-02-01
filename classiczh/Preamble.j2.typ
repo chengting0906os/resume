@@ -5,10 +5,10 @@
 #set text(lang: "zh", region: "TW")
 
 // 中文字元間距
-#show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.15em)
+#show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.08em)
 #show strong: it => {
-  show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.15em)
-  box(inset: (x: 0.15em), it)
+  show regex("[\u{4e00}-\u{9fff}]+"): set text(tracking: 0.08em)
+  box(inset: (x: 0.08em), it)
 }
 
 // Apply the rendercv template with custom configuration

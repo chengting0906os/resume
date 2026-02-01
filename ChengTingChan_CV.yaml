@@ -24,7 +24,7 @@ cv:
           - Introduced **Pytest** framework for unit and integration tests, reducing incidents
           - Established **GitHub Actions** CI with **self-hosted runner** and **automated testing**, catching bugs early and reducing review overhead
           - Introduced **Docker** containerization with deployment scripts, **significantly reducing dev setup time**
-          - Implemented **SDD**, **BDD**, **TDD** workflow, creating **Single Source of Truth** to reduce communication overhead
+          - Implemented **SDD**, **BDD**, **TDD** workflow, **maintaining version-controlled specifications** as a **Single Source of Truth** to reduce communication overhead
           - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
           - Introduced **Clean Architecture** with **reference repo** to facilitate team adoption
           - "**Cross-functional collaboration** with frontend engineers, system engineers, and QA"
