@@ -19,9 +19,9 @@ cv:
         location:
         highlights:
           - 主導專案重構，定位 DB 操作瓶頸，**核心功能執行時間降低 98.5%**
-          - "**獨立負責新專案 end-to-end**：需求拆解、系統設計、落地實作"
+          - "**獨立負責新專案後端開發**，涵蓋需求拆解到系統設計與實作"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
-          - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
+          - 導入 **Pytest** 框架實作 **unit test** 與 **integration test**，降低事故發生率
           - 建立 **GitHub Actions** CI，含 **self-hosted runner** 與**自動化測試**，提早發現問題並降低 code review 負擔
           - 導入 **Docker** 容器化並撰寫部署腳本，**大幅縮短開發環境設置時間**
           - 實作 **SDD**、**BDD**、**TDD** 工作流程，**版控規格文件**作為 **Single Source of Truth**，降低溝通成本
@@ -54,10 +54,10 @@ cv:
     skills:
       - label: Backend
         details: Python, Django, FastAPI, Django ORM, PostgreSQL, MySQL, Redis, Kafka
-      - label: DevOps & Cloud
-        details: Git, GitHub Actions, Linux, Docker, Nginx, AWS (EC2, ECS, ALB, RDS, S3, Route53, CloudFront, X-Ray)
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
+      - label: DevOps & Cloud
+        details: Git, GitHub Actions, Linux, Docker, Nginx, AWS (EC2, ECS, ALB, RDS, Route53, S3, CloudFront, X-Ray)
 
 design:
   theme: classiczh
@@ -67,15 +67,15 @@ design:
     top_margin: 1.3cm
     bottom_margin: 1.3cm
   header:
-    space_below_name: 0.6cm
-    space_below_headline: 0.1cm
-    space_below_connections: 0.4cm
+    space_below_name: 0.5cm
+    space_below_headline: 0.01cm
+    space_below_connections: 0.5cm
   links:
     show_external_link_icon: false
     underline: true
   typography:
     font_family: Noto Sans
-    line_spacing: 0.85em
+    line_spacing: 0.8em
     font_size:
       connections: 8.5pt
 
