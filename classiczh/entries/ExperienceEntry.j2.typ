@@ -12,7 +12,7 @@
 {% endfor %}
   ],
   [
-{% for line in entry.date_and_location_column.splitlines() %}
+{% for line in entry.date_and_location_column.splitlines()|reverse %}
     {{ line|indent(4) }}
 
 {% endfor %}
