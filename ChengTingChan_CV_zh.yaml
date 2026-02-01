@@ -44,27 +44,28 @@ cv:
           - 整合 **OpenTelemetry** 搭配 **Jaeger** 及 **AWS X-Ray** 實現 distributed tracing
           - 使用 **py-spy** 產生 flame graph，**定位並解決 CPU 瓶頸**，執行時間降低 **72%**
     certifications:
-      - bullet: AWS Certified Cloud Practitioner
-      - bullet: TOEIC 915（Listening and Reading）
+      - bullet: "**AWS Certified Cloud Practitioner**"
+      - bullet: "**TOEIC 915**（Listening and Reading）"
+    education:
+      - company: 世新大學
+        position: 廣播電視電影學系電影組 畢業
+        start_date: 2016-09
+        end_date: 2020-06
     skills:
-      - label: Languages & Frameworks
-        details: Python, Django, FastAPI, Django ORM
-      - label: Databases & Messaging
-        details: PostgreSQL, MySQL, Redis, Kafka
-      - label: DevOps
-        details: Git, GitHub Actions, Linux, VMware, Nginx, Docker
+      - label: Backend
+        details: Python, Django, FastAPI, Django ORM, PostgreSQL, MySQL, Redis, Kafka
+      - label: DevOps & Cloud
+        details: Git, GitHub Actions, Linux, Docker, Nginx, AWS (EC2, ECS, ALB, RDS, S3, Route53, CloudFront, X-Ray)
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
-      - label: AWS
-        details: EC2, ECS, ALB, RDS, Route53, S3, CloudFront, X-Ray
 
 design:
   theme: classiczh
   page:
     show_top_note: false
     show_footer: false
-    top_margin: 1.5cm
-    bottom_margin: 1.5cm
+    top_margin: 1.3cm
+    bottom_margin: 1.3cm
   header:
     space_below_name: 0.6cm
     space_below_headline: 0.1cm
@@ -74,9 +75,9 @@ design:
     underline: true
   typography:
     font_family: Noto Sans
-    line_spacing: 0.90em
+    line_spacing: 0.85em
     font_size:
-      connections: 9pt
+      connections: 8.5pt
 
 locale:
   language: mandarin_chineese

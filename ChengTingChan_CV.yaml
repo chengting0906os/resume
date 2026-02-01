@@ -44,27 +44,28 @@ cv:
           - Integrated **OpenTelemetry** with **Jaeger** and **AWS X-Ray** for distributed tracing
           - Used **py-spy** to generate flame graphs, **identified and resolved CPU bottlenecks** in the hot path, reducing execution time by **72%**
     certifications:
-      - bullet: AWS Certified Cloud Practitioner
-      - bullet: TOEIC 915 (Listening and Reading)
+      - bullet: "**AWS Certified Cloud Practitioner**"
+      - bullet: "**TOEIC 915** (Listening and Reading)"
+    education:
+      - company: Shih Hsin University
+        position: BA, Department of Radio, Television and Film (Division of Film)
+        start_date: 2016-09
+        end_date: 2020-06
     skills:
-      - label: Languages & Frameworks
-        details: Python, Django, FastAPI, Django ORM
-      - label: Databases & Messaging
-        details: PostgreSQL, MySQL, Redis, Kafka
-      - label: DevOps
-        details: Git, GitHub Actions, Linux, VMware, Nginx, Docker
+      - label: Backend
+        details: Python, Django, FastAPI, Django ORM, PostgreSQL, MySQL, Redis, Kafka
+      - label: DevOps & Cloud
+        details: Git, GitHub Actions, Linux, Docker, Nginx, AWS (EC2, ECS, ALB, RDS, S3, Route53, CloudFront, X-Ray)
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
-      - label: AWS
-        details: EC2, ECS, ALB, RDS, Route53, S3, CloudFront, X-Ray
 
 design:
   theme: classic
   page:
     show_top_note: false
     show_footer: false
-    top_margin: 1.5cm
-    bottom_margin: 1cm
+    top_margin: 1.3cm
+    bottom_margin: 1.3cm
   header:
     space_below_name: 0.5cm
     space_below_headline: 0.01cm
