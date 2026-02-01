@@ -19,7 +19,7 @@ cv:
         location:
         highlights:
           - 主導專案重構，定位 DB 操作瓶頸，**核心功能執行時間降低 98.5%**
-          - "獨立負責新專案從**需求拆解**、**系統設計**到**落地實作**"
+          - "**獨立負責新專案 end-to-end**：需求拆解、系統設計、落地實作"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
           - 導入 **Pytest** 框架實作 unit test 與 integration test，降低事故發生率
           - 建立 **GitHub Actions** CI，含 **self-hosted runner** 與**自動化測試**，提早發現問題並降低 code review 負擔
@@ -36,7 +36,7 @@ cv:
         highlights:
           - "於 6 週內完成**獨立規劃、開發**的個人全端專案，使用到 **Python**、**JavaScript**、**MySQL**、**WebSocket**、**Redis**、**Kafka**、**Docker**、**AWS**"
     projects:
-      - name: "[Ticketing System](https://github.com/chengting0906os/ticketing_system)"
+      - name: "Ticketing System - [https://github.com/chengting0906os/ticketing_system](https://github.com/chengting0906os/ticketing_system)"
         highlights:
           - 設計並實作 **event-driven** 票務系統，load test 達 **5,116 RPS**
           - 透過 **Kafka partition ordering** + **冪等性設計**確保資料一致性，避免使用 distributed locks
@@ -56,7 +56,7 @@ cv:
       - label: Testing & Observability
         details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: AWS
-        details: EC2, ECS, ALB, RDS, S3, Route53, X-Ray
+        details: EC2, ECS, ALB, RDS, Route53, S3, CloudFront, X-Ray
 
 design:
   theme: classiczh
@@ -70,7 +70,8 @@ design:
     space_below_headline: 0.1cm
     space_below_connections: 0.4cm
   links:
-    show_external_link_icon: true
+    show_external_link_icon: false
+    underline: true
   typography:
     font_family: Noto Sans
     line_spacing: 0.95em
