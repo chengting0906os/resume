@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
 cv:
   name: Cheng Ting Chan 詹承廷
   headline: Software Engineer
@@ -15,7 +15,7 @@ cv:
       - company: CloudSafe
         position: Software Engineer
         start_date: 2024-12
-        end_date: present
+        end_date: 2026-03
         location:
         highlights:
           - Owned project refactoring, identified DB bottleneck, **reducing core feature execution time** by **98.5%**
@@ -23,9 +23,9 @@ cv:
           - Refactored legacy codebase with **Django Ninja** + **Django ORM**, significantly improving maintainability
           - Introduced **Pytest** framework for **unit and integration tests**, reducing incidents
           - Established **GitHub Actions** CI with **self-hosted runner** and **automated testing**, catching bugs early and reducing review overhead
-          - Introduced **Docker** containerization with deployment scripts, **significantly reducing dev setup time**
+          - Introduced **Docker** containerization with deployment scripts, significantly **reducing dev setup time**
           - Implemented **SDD**, **BDD**, **TDD** workflow, **maintaining version-controlled specifications** as a **Single Source of Truth** to reduce communication overhead
-          - Leveraged **AI-assisted development tools** (Claude Code, MCP), reducing core module development time by **70%+**
+          - Leveraged **AI-assisted development tools (Claude Code, MCP) and automated testing**, reducing core module development time by **70%+**
           - Introduced **Clean Architecture** with **reference repo** to facilitate team adoption
           - "**Cross-functional collaboration** with frontend engineers, system engineers, and QA"
       - company: WeHelp

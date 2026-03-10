@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
 cv:
   name: 詹承廷
   headline: Software Engineer
@@ -14,17 +14,17 @@ cv:
     experience:
       - company: CloudSafe
         position: Software Engineer
-        date: "2024.12 - present"
-        location: 1 年 3 個月
+        date: "2024.12 - 2026.03"
+        location: 1 年 4 個月
         highlights:
           - 主導專案重構，定位 DB 操作瓶頸，**核心功能執行時間降低 98.5%**
           - "**獨立負責新專案後端開發**，涵蓋需求拆解到系統設計與實作"
           - 以 **Django Ninja** + **Django ORM** 重構 legacy codebase，大幅提升可維護性
           - 導入 **Pytest** 框架實作 **unit test** 與 **integration test**，降低事故發生率
           - 建立 **GitHub Actions** CI，含 **self-hosted runner** 與**自動化測試**，提早發現問題並降低 code review 負擔
-          - 導入 **Docker** 容器化並撰寫部署腳本，**大幅縮短開發環境設置時間**
+          - 導入 **Docker** 容器化並撰寫部署腳本，大幅**縮短開發環境設置時間**
           - 實作 **SDD**、**BDD**、**TDD** 工作流程，**版控規格文件**作為 **Single Source of Truth**，降低溝通成本
-          - 運用 **AI 輔助開發工具**（Claude Code、MCP），使核心模組開發時間縮短 **70%+**
+          - 運用 **AI 輔助開發工具（Claude Code、MCP）與自動化測試**，使核心模組開發時間縮短 **70%+**
           - 導入 **Clean Architecture**，建立**示範 repo** 幫助團隊導入
           - 與 frontend engineer、system engineer 及 QA **跨領域協作**
       - company: WeHelp
@@ -77,6 +77,6 @@ design:
       connections: 9pt
 
 locale:
-  language: mandarin_chineese
+  language: mandarin_chinese
   month: 個月
   months: 個月
