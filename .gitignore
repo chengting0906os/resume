@@ -1,3 +1,4 @@
 .claude/
 .history/
 rendercv_output/
+**/__pycache__/
