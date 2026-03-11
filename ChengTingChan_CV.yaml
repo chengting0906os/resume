@@ -55,7 +55,7 @@ cv:
       - label: Backend
         details: Python, Django, FastAPI, Django ORM, PostgreSQL, MySQL, Redis, Kafka
       - label: Testing & Observability
-        details: Pytest, pytest-bdd, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
+        details: Pytest, Pytest-BDD, Gherkin, k6, OpenTelemetry, Jaeger, py-spy
       - label: DevOps & Cloud
         details: Git, GitHub Actions, Linux, Docker, Nginx, AWS (EC2, ECS, ALB, RDS, Route53, S3, CloudFront, X-Ray)
 
