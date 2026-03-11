@@ -65,7 +65,7 @@ design:
     bottom_margin: 1.3cm
   header:
     space_below_name: 0.5cm
-    space_below_headline: 0.01cm
+    space_below_headline: 0.15cm
     space_below_connections: 0.5cm
   links:
     show_external_link_icon: false

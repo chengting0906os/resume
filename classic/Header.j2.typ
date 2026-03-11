@@ -28,7 +28,7 @@
   #v({{ design.header.space_below_headline }})
 {% endif %}
 #connections(
-{% for connection in cv.connections %}
+{% for connection in cv._connections %}
   [{{ connection }}],
 {% endfor %}
 )
