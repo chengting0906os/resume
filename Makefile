@@ -7,11 +7,13 @@ render:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
 	mkdir -p "$(OUT)/$$ts"; \
 	mkdir -p latest; \
-	rendercv render $(NAME)_CV.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
-	rendercv render $(NAME)_CV_zh.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	rendercv render $(NAME)_Resume.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_Resume_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_Resume_$$ts.typ"; \
+	rendercv render $(NAME)_Resume_zh.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_Resume_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_Resume_$$ts.typ"; \
+	rendercv render $(NAME)_CV.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_CV_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_CV_$$ts.typ"; \
 	find $(OUT) -maxdepth 1 -type f \( -name "*.png" -o -name "*.md" -o -name "*.html" \) -exec mv {} "$(OUT)/$$ts/" \; ; \
-	cp "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" latest/$(NAME)_Resume.pdf; \
-	cp "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" latest/$(NAME)_Resume_ZH.pdf; \
+	cp "$(OUT)/$$ts/$(NAME)_EN_Resume_$$ts.pdf" latest/$(NAME)_Resume.pdf; \
+	cp "$(OUT)/$$ts/$(NAME)_ZH_Resume_$$ts.pdf" latest/$(NAME)_Resume_ZH.pdf; \
+	cp "$(OUT)/$$ts/$(NAME)_EN_CV_$$ts.pdf" latest/$(NAME)_CV.pdf; \
 	echo "Created: $(OUT)/$$ts/"; \
 	echo "Copied to: latest/"
 
@@ -19,7 +21,7 @@ render-en:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
 	mkdir -p "$(OUT)/$$ts"; \
 	mkdir -p latest; \
-	rendercv render $(NAME)_CV.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
+	rendercv render $(NAME)_Resume.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_EN_$$ts.typ"; \
 	cp "$(OUT)/$$ts/$(NAME)_EN_$$ts.pdf" latest/$(NAME)_Resume.pdf; \
 	echo "Created EN: $(OUT)/$$ts/"; \
 	echo "Copied to: latest/"
@@ -28,7 +30,7 @@ render-zh:
 	@ts=$$(date +%Y%m%d_%H%M%S); \
 	mkdir -p "$(OUT)/$$ts"; \
 	mkdir -p latest; \
-	rendercv render $(NAME)_CV_zh.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
+	rendercv render $(NAME)_Resume_zh.yaml --output-folder "$(OUT)/$$ts" --pdf-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" --typst-path "$(OUT)/$$ts/$(NAME)_ZH_$$ts.typ"; \
 	cp "$(OUT)/$$ts/$(NAME)_ZH_$$ts.pdf" latest/$(NAME)_Resume_ZH.pdf; \
 	echo "Created ZH: $(OUT)/$$ts/"; \
 	echo "Copied to: latest/"

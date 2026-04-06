@@ -12,7 +12,7 @@ cv:
       username: chengting0906os
   sections:
     experience:
-      - company: Cloud Safe 雲沛科技股份有限公司
+      - company: Cloud Safe
         position: Software Engineer
         start_date: 2024-12
         end_date: 2026-03
@@ -35,29 +35,6 @@ cv:
         location:
         highlights:
           - "Completed **independently planned and developed** personal full-stack projects within 6 weeks, using **Python**, **JavaScript**, **MySQL**, **WebSocket**, **Redis**, **Kafka**, **Docker**, and **AWS**"
-      - company: Moriko Studio 森子映像有限公司
-        position: Director, Executive Director, Videographer, Editor
-        start_date: 2022-12
-        end_date: 2024-03
-        location:
-        highlights:
-          - Completed **25 video projects**, including a course for which I served as videographer, which achieved over **4,000 sales**
-          - Collaborated with crowdfunding specialist to achieve over **1,000 monthly donations**
-      - company: Newsveg 時書數位內容股份有限公司
-        position: Director, Videographer
-        start_date: 2022-03
-        end_date: 2022-11
-        location:
-        highlights:
-          - Served as the lead for the video production of **7 courses**
-          - As the video production lead, contributed to the sale of over **3,100 courses**
-      - company: SAT. KNOWLEDGE 塞特知識股份有限公司
-        position: Video Production Specialist
-        start_date: 2021-05
-        end_date: 2021-11
-        location:
-        highlights:
-          - Partnered with course planners, marketing strategists, and graphic designers to drive over **2,700 course sales**
     projects:
       - name: "Ticketing System - [https://github.com/chengting0906os/ticketing_system](https://github.com/chengting0906os/ticketing_system)"
         highlights:
@@ -74,10 +51,6 @@ cv:
         position: BA, Department of Radio, Television and Film, Division of Film
         start_date: 2016-09
         end_date: 2020-06
-      - company: National Chengchi University
-        position: Department of Public Finance
-        start_date: 2015-09
-        end_date: 2016-01
     skills:
       - label: Backend
         details: Python, Django, FastAPI, Django ORM, PostgreSQL, MySQL, Redis, Kafka
